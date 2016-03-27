@@ -2,6 +2,35 @@ use v6;
 use Lingua::EN::Stopwords::Short;
 use Text::TFIdf;
 
+=begin pod
+
+=head1 NAME
+
+Lingua::EN::Summary
+
+=head1 DESCRIPTION
+
+Lingua::EN::Summary calculates the top N sentences given an array of text.  It does this using TF-IDF vectors and the Page Rank algorithm.
+
+TF-IDF vectors scores describe how related sentences are.  This can be normalized and used as a transition matrix for Page Rank.  We can use the top ranked sentences as a best guess summary for the overall content.
+
+=head2 Examples
+
+    use v6;
+    use Lingua::EN::Summary;
+    use Lingua::EN::Sentence;
+
+    sub MAIN {
+      my $text = slurp 'examples/zootopia.txt';
+      my @sentences = $text.sentences;
+
+      say summarize(@sentences, 5).join('  ');
+    }
+
+This example will select the top 5 sentences from a plot summary of Zootopia.
+
+=end pod
+
 module Lingua::EN::Summary {
   sub summarize(@text, Int $len, Int $iterations = 500) is export {
     # Create a TF-IDF object
