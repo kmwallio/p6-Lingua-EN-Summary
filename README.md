@@ -9,7 +9,6 @@ By default, we do 250 iterations.  There is an optional parameter for increasing
 ## Installation
 
 ```
-panda install git://github.com/kmwallio/p6-Text-TFIdf.git
 panda install git://github.com/kmwallio/p6-Lingua-EN-Summary.git
 ```
 
