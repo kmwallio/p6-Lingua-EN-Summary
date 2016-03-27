@@ -30,15 +30,11 @@ my @nice-and-short = summarize($long-winded, 5, 1000);
 
 ### [The Amazing Spider-Man](https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_(2012_film)) in 5 Sentences
 
-```
-Years later, a teenaged Peter attends Midtown Science High School, where he is bullied by Flash Thompson and has caught the eye of the beautiful Gwen Stacy.  After studying Richard's papers, Peter visits the one-armed Connors, reveals he is Richard Parker's son and gives Connors his father's "decay rate algorithm", the missing piece in Connors' experiments on regenerating limbs.  After seeing success with the mouse using lizard DNA, Ratha demands Connors begin human trials immediately if Osborn is to survive.  By the time he gets to the Williamsburg Bridge Connors has become a violent hybrid of lizard and man, tossing cars, including Ratha's, over the side of the bridge.  Spider-Man eventually disperses an antidote cloud instead, restoring Connors and earlier victims to normal, but not before Lizard mortally wounds Captain Stacy.
-```
+> Years later, a teenaged Peter attends Midtown Science High School, where he is bullied by Flash Thompson and has caught the eye of the beautiful Gwen Stacy.  After studying Richard's papers, Peter visits the one-armed Connors, reveals he is Richard Parker's son and gives Connors his father's "decay rate algorithm", the missing piece in Connors' experiments on regenerating limbs.  After seeing success with the mouse using lizard DNA, Ratha demands Connors begin human trials immediately if Osborn is to survive.  By the time he gets to the Williamsburg Bridge Connors has become a violent hybrid of lizard and man, tossing cars, including Ratha's, over the side of the bridge.  Spider-Man eventually disperses an antidote cloud instead, restoring Connors and earlier victims to normal, but not before Lizard mortally wounds Captain Stacy.
 
 ### [Zootopia](https://en.wikipedia.org/wiki/Zootopia) in 5 Sentences
 
-```
-In a world populated by anthropomorphic mammals, Judy Hopps, a rabbit from rural Bunnyburrow, fulfills her dream of becoming the first rabbit officer in the police department of nearby city Zootopia.  When Bogo and his reinforcements arrive, Bogo demands Judy's resignation, but Nick takes a stand, insisting they have 10 more hours to solve the case.  They identify the captors as wolves, which Judy believes Manchas and Otterton meant by “night howlers”.  Having developed a friendship with Nick, Judy requests that he joins the Zootopia Police Department and become her partner, which Wilde happily considers.  Fear and discrimination against predators spread across Zootopia, protests spawn with one done by Gazelle, and a guilt-ridden Judy resigns.
-```
+> In a world populated by anthropomorphic mammals, Judy Hopps, a rabbit from rural Bunnyburrow, fulfills her dream of becoming the first rabbit officer in the police department of nearby city Zootopia.  When Bogo and his reinforcements arrive, Bogo demands Judy's resignation, but Nick takes a stand, insisting they have 10 more hours to solve the case.  They identify the captors as wolves, which Judy believes Manchas and Otterton meant by “night howlers”.  Having developed a friendship with Nick, Judy requests that he joins the Zootopia Police Department and become her partner, which Wilde happily considers.  Fear and discrimination against predators spread across Zootopia, protests spawn with one done by Gazelle, and a guilt-ridden Judy resigns.
 
 Some movies have sad endings...
 
