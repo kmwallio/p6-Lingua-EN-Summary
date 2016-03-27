@@ -7,7 +7,7 @@
   "provides" : {
       "Lingua::EN::Summary" : "lib/Lingua/EN/Summary.pm6"
   },
-  "depends" : ["Lingua::EN::Sentence" ],
+  "depends" : [ "Lingua::EN::Sentence", "Lingua::EN::Stopwords" ],
   "resources" : [ ],
   "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Summary.git"
 }
