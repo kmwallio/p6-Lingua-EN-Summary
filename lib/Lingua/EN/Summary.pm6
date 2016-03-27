@@ -32,7 +32,7 @@ This example will select the top 5 sentences from a plot summary of Zootopia.
 =end pod
 
 module Lingua::EN::Summary {
-  sub summarize(@text, Int $len, Int $iterations = 500) is export {
+  sub summarize(@text, Int $len, Int $iterations = 250) is export {
     # Create a TF-IDF object
     my $tfidf = TFIdf.new(:trim(True), :stop-list(%stop-words));
 

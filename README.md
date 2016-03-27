@@ -4,7 +4,7 @@ Finds *N* sentences from inside a chunk of text that best summarize the text usi
 
 This is just an experiment.  It's pretty slow at the moment, looking at speeding up Text::TFIdf and this to make it more usable...
 
-By default, we do 500 iterations.  There is an optional parameter for increasing or decreasing the number of iterations done.
+By default, we do 250 iterations.  There is an optional parameter for increasing or decreasing the number of iterations done.
 
 ## Installation
 
