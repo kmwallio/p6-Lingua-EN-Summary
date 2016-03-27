@@ -1,0 +1,13 @@
+{
+  "perl" : "6.*",
+  "name" : "Lingua::EN::Summary",
+  "version" : "0.0.1",
+  "description" : "Helps calculate TF-IDF values from a given set of documents.",
+  "authors" : [ "KM Wallio" ],
+  "provides" : {
+      "Lingua::EN::Summary" : "lib/Lingua/EN/Summary.pm6"
+  },
+  "depends" : [ "Text::TFIdf", "Lingua::EN::Sentence" ],
+  "resources" : [ ],
+  "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Summary.git"
+}
