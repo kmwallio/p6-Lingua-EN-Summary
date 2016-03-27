@@ -7,7 +7,7 @@
   "provides" : {
       "Lingua::EN::Summary" : "lib/Lingua/EN/Summary.pm6"
   },
-  "depends" : [ "Text::TFIdf", "Lingua::EN::Sentence" ],
+  "depends" : [ "git://github.com/kmwallio/p6-Text-TFIdf.git", "Lingua::EN::Sentence" ],
   "resources" : [ ],
   "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Summary.git"
 }
