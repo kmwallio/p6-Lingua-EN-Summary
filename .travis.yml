@@ -4,3 +4,4 @@ perl6:
 install:
     - rakudobrew build-panda
     - panda installdeps .
+    - panda install git://github.com/kmwallio/p6-Text-TFIdf.git
