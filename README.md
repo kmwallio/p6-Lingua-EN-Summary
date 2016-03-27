@@ -22,10 +22,10 @@ use Lingua::EN::Sentence;
 
 my @long-winded = "explanation.txt".IO.slurp.sentences;
 # Generate 5 sentences
-my @nice-and-short = summarize($long-winded, 5);
+my @nice-and-short = summarize(@long-winded, 5);
 # Or
 # Generate 5 sentences after 1000 iterations
-my @nice-and-short = summarize($long-winded, 5, 1000);
+my @nice-and-short = summarize(@long-winded, 5, 1000);
 ```
 
 ### [The Amazing Spider-Man](https://en.wikipedia.org/wiki/The_Amazing_Spider-Man_(2012_film)) in 5 Sentences
